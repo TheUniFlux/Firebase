@@ -1,15 +1,18 @@
 {
-    "name": "Kingdox.UniFlux.Firebase",
+    "name": "UniFlux.Firebase",
     "rootNamespace": "",
     "references": [
-        "GUID:802cda87e14734b9bb05c37c9cd64a18",
         "GUID:deccb46461c684b399bd2ef983966192"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
-    "overrideReferences": false,
-    "precompiledReferences": [],
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Firebase.App.dll",
+        "Firebase.Platform.dll",
+        "Firebase.TaskExtension.dll"
+    ],
     "autoReferenced": true,
     "defineConstraints": [],
     "versionDefines": [],
